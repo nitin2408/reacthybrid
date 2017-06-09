@@ -1,0 +1,30 @@
+button{
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+
+  /* buttons */
+.btn-custom-btn-primary {
+  @include button-variant($btn-custom-primary-color, $btn-custom-primary-bg, $btn-custom-primary-border);
+  &:hover, &:focus, &:active, &.active{
+   @include button-variant($btn-custom-primary-color, $btn-custom-primary-bg-hover, $btn-custom-primary-bg-border-hover);
+  }
+}
+
+.btn-custom-btn-transparent {
+  padding: 5px;
+  @include button-variant($btn-custom-transparent-color, $btn-custom-transparent-bg, $btn-custom-transparent-border);
+  &:hover, &:focus, &:active, &.active {
+    @include button-variant($btn-custom-transparent-color-hover, $btn-custom-transparent-bg-hover, $btn-custom-transparent-bg-border-hover);
+  }
+}
+
+.icon-buttons{
+  button{
+    width: 55px;
+  }
+}
+
+
+

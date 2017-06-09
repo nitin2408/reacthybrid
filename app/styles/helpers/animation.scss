@@ -1,0 +1,120 @@
+@import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/mixins";
+/*--------------------------------------------
+   Animation for spinners
+--------------------------------------------*/
+.animate-spin {
+  @include animation(spin 2s infinite linear);
+  display: inline-block;
+}
+
+@-moz-keyframes spin {
+  0% {
+    @include rotate(0deg);
+  }
+
+  100% {
+    @include rotate(359deg);
+  }
+}
+
+@-webkit-keyframes spin {
+  0% {
+    @include rotate(0deg);
+  }
+
+  100% {
+    @include rotate(359deg);
+  }
+}
+
+@-o-keyframes spin {
+  0% {
+    @include rotate(0deg);
+  }
+
+  100% {
+    @include rotate(359deg);
+  }
+}
+
+@-ms-keyframes spin {
+  0% {
+    @include rotate(0deg);
+  }
+
+  100% {
+    @include rotate(359deg);
+  }
+}
+
+@keyframes spin {
+  0% {
+    @include rotate(0deg);
+  }
+
+  100% {
+    @include rotate(359deg);
+  }
+}
+
+/*--------------------------------------------
+   Animation for loading
+--------------------------------------------*/
+
+.loading-panel-master {
+  float: left;
+  width: 100%;
+  text-align: center;
+  margin-top: 10px;
+}
+.loader-dots {
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -webkit-box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.3);
+  display: inline-block;
+  margin-right: 8px;
+  z-index: 5;
+  background: #b7b7b8;
+  width: 8px;
+  height: 8px;
+}
+
+.loading-panel {
+  margin: 0 auto 0;
+  text-align: center;
+  width: 105px;
+  position: relative;
+  background-color: #ffffff;
+}
+
+.animate-panel {
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(255, 255, 255, 0)), color-stop(1%, rgba(255, 255, 255, 0.02)), color-stop(50%, #ffffff), color-stop(100%, rgba(255, 255, 255, 0)));
+  background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.02) 1%, #ffffff 50%, rgba(255, 255, 255, 0) 100%);
+  background: -moz-gradient(linear, left top, right top, color-stop(0%, rgba(255, 255, 255, 0)), color-stop(1%, rgba(255, 255, 255, 0.02)), color-stop(50%, #ffffff), color-stop(100%, rgba(255, 255, 255, 0)));
+  background: -moz-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.02) 1%, #ffffff 50%, rgba(255, 255, 255, 0) 100%);
+  background: -ms-gradient(linear, left top, right top, color-stop(0%, rgba(255, 255, 255, 0)), color-stop(1%, rgba(255, 255, 255, 0.02)), color-stop(50%, #ffffff), color-stop(100%, rgba(255, 255, 255, 0)));
+  background: -ms-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.02) 1%, #ffffff 50%, rgba(255, 255, 255, 0) 100%);
+  position: absolute;
+  left: 0%;
+  top: 0;
+  width: 40px;
+  height: auto;
+  -webkit-animation: play 1.2s infinite;
+  -o-animation: play 1.2s infinite;
+  animation: play 1.2s infinite;
+}
+@-webkit-keyframes play {
+  from { left:    -10%; }
+  to { left: 100%; }
+}
+@-moz-keyframes play {
+  from { left:    -10%; }
+  to { left: 100%; }
+}
+@-ms-keyframes play {
+  from { left:    -10%; }
+  to { left: 100%; }
+}

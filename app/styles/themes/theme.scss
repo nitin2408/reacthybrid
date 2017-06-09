@@ -1,0 +1,72 @@
+@import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/variables.scss";
+/*
+ * Colors
+ * ========================================================================== */
+
+$blue:                  #e9f0f5;
+$grey:                  #ccc;
+$grey-dark:             #89949B;
+$grey-light:            #B8C3C8;
+$red:                   #EA7882;
+
+$color-999:     #999999;
+$color-f1f1f1:  #f1f1f1;
+$color-fff:  #ffffff;
+$color-eaeaea : #eaeaea;
+$color-ccc: #cccccc;
+$color-cecece: #cecece;
+$color-e5e5e5: #e5e5e5;
+$color-b3b3b3: #b3b3b3;
+$color-666: #666666;
+$color-34a6fc: #34a6fc;
+$color-primary-blue: #00beff;
+$color-ff6600: #ff6600;
+$color-009966: #009966;
+$color-f7f7f7: #f7f7f7;
+$color-d9f2ff:#d9f2ff;
+$color-e5fcff:#e5fcff;
+$color-9a9a9a:#9a9a9a;
+$color-b7b7b8: #b7b7b8;
+$color-ddd: #ddd;
+$color-aaa: #aaa;
+$color-cdcdcd: #cdcdcd;
+
+/* custom primary buttons variables */
+$btn-custom-primary-color:               #fff;
+$btn-custom-primary-bg:                  #00beff;
+$btn-custom-primary-border:              #34a6fc;
+$btn-custom-primary-bg-hover:            #34a6fc;
+$btn-custom-primary-bg-border-hover:     #257afc;
+
+/* Transparent  buttons variables */
+$btn-custom-transparent-color:               #00beff;
+$btn-custom-transparent-bg:                  transparent;
+$btn-custom-transparent-border:              transparent;
+$btn-custom-transparent-color-hover:         #257afc;
+$btn-custom-transparent-bg-hover:            transparent;
+$btn-custom-transparent-bg-border-hover:     transparent;
+
+
+/*Reset inverted navbar basics variables*/
+$navbar-inverse-bg:     #f1f1f1;
+$navbar-inverse-border: 0px;
+$navbar-border-radius : 0px;
+
+/*tooltips*/
+$tooltip-bg:                  #34a6fc;
+$tooltip-arrow-color:         #34a6fc;
+$tooltip-opacity:             .95;
+
+
+/*tabs*/
+$tabs-bg:                 #f1f1f1;
+$tabs-color:              #999;
+$tab-active:              #ccc;
+$tab-hover:               $color-primary-blue;
+
+/*breadcrumbs*/
+$breadcrumb-bg:           transparent;
+$breadcrumb-color:        #34a6fc;
+$breadcrumb-active-color: #999;
+
+

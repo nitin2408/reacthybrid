@@ -1,0 +1,58 @@
+.toggle-button{
+  background: $color-ddd;
+  border: 0;
+  border-radius: 5px;
+  padding: 0;
+  position: relative;
+   &.active{
+     .switch-on {
+       visibility: visible;
+     }
+     .switch-off{
+       visibility: hidden;
+     }
+   }
+  .switch-on,
+  .switch-off{
+    display: inline-block;
+    width: 76px;
+    color: $color-fff;
+    border-radius: 5px;
+    line-height: 27px;
+  }
+   .switch-on{
+     background: $color-34a6fc;
+     border-right: 1px solid $color-cdcdcd;
+     visibility: hidden;
+   }
+   .switch-off{
+     background: $color-aaa;
+     border-left: 1px solid $color-cdcdcd;
+   }
+  .switch-process-overlay{
+    border-radius: 3px;
+    background: #dddddd;
+    height: 27px;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    visibility: hidden;
+     .process-overlay{
+       width: 45px;
+       height: 27px;
+       border-radius: 5px;
+       background: #34a6fc;
+       border-right: 1px solid #cdcdcd;
+       display: inline-block;
+       .icon-cs-loading{
+         font-size: 1.1em;
+         color: $color-fff;
+         vertical-align: middle;
+       }
+     }
+  }
+  &:hover{
+    background: $color-ddd;
+  }
+}

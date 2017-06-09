@@ -1,0 +1,23 @@
+/*Include all of bootstrap for compilation*/
+/*@import "../node_modules/bootstrap-sass/assets/stylesheets/bootstrap.scss";*/
+
+@import 'themes/theme.scss';
+
+@import 'helpers/variables.scss';
+@import 'helpers/generic.scss';
+@import 'helpers/animation.scss';
+
+@import 'base/fonts.scss';
+@import 'base/icon-fonts.scss';
+
+@import 'components/header.scss';
+@import 'components/button.scss';
+@import 'components/checkbox-radio-buttons.scss';
+@import 'components/dropdown.scss';
+@import 'components/tooltips.scss';
+@import 'components/tabs.scss';
+@import 'components/breadcrumbs.scss';
+@import 'components/toggle-button.scss';
+
+@import 'layout/responsive';
+

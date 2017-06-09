@@ -1,0 +1,19 @@
+.breadcrumb {
+  background-color: $breadcrumb-bg;
+  text-transform: uppercase;
+  padding: 10px 0;
+  font-size: 0.8em;
+  a{
+    color: $breadcrumb-color;
+  }
+  > li {
+    + li:before {
+      $nbsp: "\203a";
+      content: "#{$nbsp}";
+    }
+  }
+  > .active {
+    color: $breadcrumb-active-color;
+  }
+
+}
