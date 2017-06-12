@@ -4,9 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack -d --watch",
+    "dev": "webpack-dev-server",
     "prod": "webpack -p",
-    "server": "webpack-dev-server"
+    "server": "webpack-dev-server",
+    "start": "webpack-dev-server"
   },
   "keywords": [],
   "author": "",
@@ -24,9 +25,12 @@
     "node-sass": "^4.5.3",
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
+    "react-router": "^2.8.1",
     "sass-loader": "^6.0.5",
     "style-loader": "^0.18.2",
     "webpack": "^2.2.0",
+    "webpack-config": "^6.0.0",
+    "webpack-dashboard": "^0.4.0",
     "webpack-dev-server": "^2.4.5"
   }
 }
